@@ -13,10 +13,13 @@
   },
   "devDependencies": {
     "cleaver": "^0.7.3",
+    "funcunit": "^3.0.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-exec": "^0.4.6"
+    "grunt-exec": "^0.4.6",
+    "steal": "^0.10.5",
+    "steal-qunit": "0.0.4"
   },
   "scripts": {
     "start": "grunt"
