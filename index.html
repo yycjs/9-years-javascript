@@ -552,6 +552,10 @@ ul {
   display: table-cell;
 }
 
+pre {
+  font-size: 100%;
+}
+
   </style>
 </head>
 <body>
@@ -569,11 +573,12 @@ ul {
 </section>
   </div>
   <div class="slide hidden  presenter" id="slide-3">
-    <section class="slide-content"><p><img src="http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200" alt="David Luecke"></p>
-<h2 id="david-luecke">David Luecke</h2>
+    <section class="slide-content"><p><img src="http://gravatar.com/avatar/23aba778a7daae99348aeb0728cf4aec?s=200" alt="Eric Kryski"></p>
+<h2 id="eric-kryski">Eric Kryski</h2>
 <ul>
-<li><a href="https://github.com/daffl"><i class="fa fa-github"></i> daffl</a></li>
-<li><a href="http://twitter.com/daffl"><i class="fa fa-twitter"></i> @daffl</a></li>
+<li><a href="https://github.com/ekryski"><i class="fa fa-github"></i> ekryski</a></li>
+<li><a href="http://twitter.com/ekryski"><i class="fa fa-twitter"></i> @ekryski</a></li>
+<li><a href="http://erickryski.com"><i class="fa fa-home"></i> erickryski.com</a></li>
 </ul>
 </section>
   </div>
@@ -587,12 +592,11 @@ ul {
 </section>
   </div>
   <div class="slide hidden  presenter" id="slide-5">
-    <section class="slide-content"><p><img src="http://gravatar.com/avatar/23aba778a7daae99348aeb0728cf4aec?s=200" alt="Eric Kryski"></p>
-<h2 id="eric-kryski">Eric Kryski</h2>
+    <section class="slide-content"><p><img src="http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200" alt="David Luecke"></p>
+<h2 id="david-luecke">David Luecke</h2>
 <ul>
-<li><a href="https://github.com/ekryski"><i class="fa fa-github"></i> ekryski</a></li>
-<li><a href="http://twitter.com/ekryski"><i class="fa fa-twitter"></i> @ekryski</a></li>
-<li><a href="http://erickryski.com"><i class="fa fa-home"></i> erickryski.com</a></li>
+<li><a href="https://github.com/daffl"><i class="fa fa-github"></i> daffl</a></li>
+<li><a href="http://twitter.com/daffl"><i class="fa fa-twitter"></i> @daffl</a></li>
 </ul>
 </section>
   </div>
@@ -606,10 +610,17 @@ ul {
 </section>
   </div>
   <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><h1 id="last-month">Last Month</h1>
+    <section class="slide-content"><h2 id="last-month-react-in-the-real-world-http-www-meetup-com-yyc-js-events-221664814-">Last Month: <a href="http://www.meetup.com/yyc-js/events/221664814/">React in the real-world</a></h2>
 <ul>
-<li>Something awesome</li>
-<li>More awesomeness</li>
+<li>What is React?</li>
+<li>What it is not</li>
+<li>What is Flux?</li>
+<li>What it is not</li>
+<li>What is this JSX stuff?</li>
+<li>Some of the basics of React + Flux</li>
+<li>How to create basic React + Flux app with Feathers</li>
+<li>The pros/cons of React</li>
+<li>Some React ProTips™ and best practices</li>
 </ul>
 </section>
   </div>
@@ -685,7 +696,10 @@ ul {
 <li>Write functional tests in your testing library of choice</li>
 <li>Use jQuery syntax to emulate user input</li>
 </ul>
-<p><strong>Testing a <a href="http://todomvc.com">TodoMVC</a> app</strong></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-16">
+    <section class="slide-content"><h1 id="__testing-a-todomvc-http-todomvc-com-app__"><strong>Testing a <a href="http://todomvc.com">TodoMVC</a> app</strong></h1>
 <pre><code class="lang-javascript">test(<span class="string">'TodoMVC app'</span>, <span class="keyword">function</span>() {
     F(<span class="string">'#new-todo'</span>).click().type(<span class="string">'Do some nerdy stuff\r'</span>);
     F(<span class="string">'#todo-list li'</span>).size(<span class="number">1</span>, <span class="string">'Got one Todo'</span>);
@@ -696,7 +710,7 @@ ul {
 });</code></pre>
 </section>
   </div>
-  <div class="slide hidden" id="slide-16">
+  <div class="slide hidden" id="slide-17">
     <section class="slide-content"><h1 id="-testee-logo-img-testee-png-"><img src="img/testee.png" alt="Testee Logo"></h1>
 <p>Testee runs your <em>Mocha</em>, <em>QUnit</em> or <em>Jasmine</em> unit tests from the command line using any browser.</p>
 <ul>
@@ -710,31 +724,31 @@ ul {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-17">
+  <div class="slide hidden" id="slide-18">
     <section class="slide-content"><h1 id="continuous-integration">Continuous Integration</h1>
 <ul>
 <li>Use source control management system (SCM) for builds</li>
 <li>Run reports, tests, deploy or other tools on each SCM change</li>
 <li>Popular open source CI servers:<ul>
 <li><a href="http://jenkins-ci.org/">Jenkins</a>: Probably most popular CI server, formerly Hudson</li>
-<li><a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>: CI framework initially by Thoughtworks</li>
 <li><a href="http://travis-ci.org">TravisCI</a>: Distributed build platform for the open source community</li>
 </ul>
 </li>
 <li>Hosted CI services<ul>
 <li><a href="https://www.codeship.io/">Codeship</a>: Build and deploy service</li>
-<li><a href="https://circleci.com/">Circle CI</a></li>
 <li><a href="https://about.gitlab.com/gitlab-ci/">Gitlab CI</a></li>
 </ul>
 </li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><h1 id="next-month">Next Month</h1>
+  <div class="slide hidden" id="slide-19">
+    <section class="slide-content"><h2 id="july-better-apis-and-smarter-ais-http-www-meetup-com-yyc-js-events-222682935-">July: <a href="http://www.meetup.com/yyc-js/events/222682935/">Better APIs and smarter AIs</a></h2>
+<h2 id="aka-dave-s-last-yycjs">Aka Dave&#39;s last YYCJS</h2>
 <ul>
-<li>Something awesome</li>
-<li>More awesomeness</li>
+<li>Full stack real-time applications with Feathers 1.1 and jQuery/Angular/React and Android/iOS</li>
+<li>HTML5 speech API and neural network natural language processing</li>
+<li><strong>And everything together</strong></li>
 </ul>
 </section>
   </div>

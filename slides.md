@@ -16,12 +16,13 @@ logo: theme/logo.png
 
 -- presenter
 
-![David Luecke](http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200)
+![Eric Kryski](http://gravatar.com/avatar/23aba778a7daae99348aeb0728cf4aec?s=200)
 
-## David Luecke
+## Eric Kryski
 
-* [<i class="fa fa-github"></i> daffl](https://github.com/daffl)
-* [<i class="fa fa-twitter"></i> @daffl](http://twitter.com/daffl)
+* [<i class="fa fa-github"></i> ekryski](https://github.com/ekryski)
+* [<i class="fa fa-twitter"></i> @ekryski](http://twitter.com/ekryski)
+* [<i class="fa fa-home"></i> erickryski.com](http://erickryski.com)
 
 -- presenter
 
@@ -34,13 +35,12 @@ logo: theme/logo.png
 
 -- presenter
 
-![Eric Kryski](http://gravatar.com/avatar/23aba778a7daae99348aeb0728cf4aec?s=200)
+![David Luecke](http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200)
 
-## Eric Kryski
+## David Luecke
 
-* [<i class="fa fa-github"></i> ekryski](https://github.com/ekryski)
-* [<i class="fa fa-twitter"></i> @ekryski](http://twitter.com/ekryski)
-* [<i class="fa fa-home"></i> erickryski.com](http://erickryski.com)
+* [<i class="fa fa-github"></i> daffl](https://github.com/daffl)
+* [<i class="fa fa-twitter"></i> @daffl](http://twitter.com/daffl)
 
 -- sponsors
 
@@ -58,10 +58,17 @@ logo: theme/logo.png
 
 --
 
-# Last Month
+## Last Month: [React in the real-world](http://www.meetup.com/yyc-js/events/221664814/)
 
-* Something awesome
-* More awesomeness
+* What is React?
+* What it is not
+* What is Flux?
+* What it is not
+* What is this JSX stuff?
+* Some of the basics of React + Flux
+* How to create basic React + Flux app with Feathers
+* The pros/cons of React
+* Some React ProTips™ and best practices
 
 -- sponsors
 
@@ -139,7 +146,9 @@ Functional testing library built on top of __jQuery__ and runs on __QUnit__, __J
 - Write functional tests in your testing library of choice
 - Use jQuery syntax to emulate user input
 
-__Testing a [TodoMVC](http://todomvc.com) app__
+--
+
+# __Testing a [TodoMVC](http://todomvc.com) app__
 
 ```javascript
 test('TodoMVC app', function() {
@@ -174,16 +183,16 @@ Testee runs your *Mocha*, *QUnit* or *Jasmine* unit tests from the command line 
 - Run reports, tests, deploy or other tools on each SCM change
 - Popular open source CI servers:
 	- [Jenkins](http://jenkins-ci.org/): Probably most popular CI server, formerly Hudson
-	- [CruiseControl](http://cruisecontrol.sourceforge.net/): CI framework initially by Thoughtworks
 	- [TravisCI](http://travis-ci.org): Distributed build platform for the open source community
 - Hosted CI services
 	- [Codeship](https://www.codeship.io/): Build and deploy service
-	- [Circle CI](https://circleci.com/)
 	- [Gitlab CI](https://about.gitlab.com/gitlab-ci/)
 
 --
 
-# Next Month
+## July: [Better APIs and smarter AIs](http://www.meetup.com/yyc-js/events/222682935/)
+## Aka Dave's last YYCJS
 
-* Something awesome
-* More awesomeness
+* Full stack real-time applications with Feathers 1.1 and jQuery/Angular/React and Android/iOS
+* HTML5 speech API and neural network natural language processing
+* __And everything together__

@@ -1,20 +1,10 @@
-### YYCjs Slide Template
+### 9 years of JavaScript
 
-Our template for our monthly slide deck using [cleaver](http://jdan.github.io/cleaver). Feel free to rip it off if you would like.
+This time Alexis Abril, host of the DallasJS meetup and long-time Bitovian will join us and together with David share some of the things learned from 9 years of running large corporate and open-source JavaScript projects (the latter of which were never "the hot thing" but are quietly powering some of the top 100 web sites in the world).
 
-To use it locally, there are 3 steps to instant gratification:
+We will talk about:
 
-1. `npm install -g cleaver`
-2. Write [your slides as markdown](https://github.com/yycjs/slide-template/blob/gh-pages/slides.md)
-3. `npm install`
-4. `grunt watch`
-
-
-#### Special Classes
-
-To make your slides look a little nice there are a few special classes that you can use with this theme.
-
-* `title`
-* `presenter`
-* `sponsors`
-* `image`
+* Lessons learned
+* The surprising reasons why projects fail
+* Why testing always matters
+* How to easily add functional tests to your web application
